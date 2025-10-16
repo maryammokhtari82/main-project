@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Yekan;
+  src: url(../fonts/farsi/IRANYekanWeb.eot),
+    url(../fonts/farsi/IRANYekanWeb.ttf), url(../fonts/farsi/IRANYekanWeb.woff),
+    url(../fonts/farsi/IRANYekanWeb.woff2);
+}
+@font-face {
+  font-family: Vazir;
+  src: url(../fonts/farsi/Vazir/Vazir-Medium-FD-WOL.eot),
+    url(../fonts/farsi/Vazir/Vazir-Medium-FD-WOL.ttf),
+    url(../fonts/farsi/Vazir/Vazir-Medium-FD-WOL.woff),
+    url(../fonts/farsi/Vazir/Vazir-Medium-FD-WOL.woff2);
+}
+@font-face {
+  font-family: english;
+  src: url(../fonts/english/Roboto-Regular.eot),
+    url(../fonts/english/Roboto-Regular.ttf),
+    url(../fonts/english/Roboto-Regular.woff),
+    url(../fonts/english/Roboto-Regular.woff2);
+}
+:root {
+  --font-family: Yekan;
+  --english-font-family: english;
+  --font-family-number: Vazir;
+}
+.wrapper {
+  width: 100%;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  font-size: 12px;
+  font-weight: bold;
+  color: grey;
+}
+.swiper-button-disabled {
+  opacity: 0 !important;
+}

@@ -1,0 +1,106 @@
+.supermarket-wonderful {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  .supermarket-wonderful-center {
+    width: 87%;
+    height: 100%;
+    border-radius: 16px;
+    background-color: #ecefee;
+    background-image: url(../images/supermarket-wonderful/images-1.svg);
+    background-repeat: no-repeat;
+    a {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      text-decoration: none;
+      .supermarket-wonderful-center-right {
+        width: 45%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        .supermarket-wonderful-center-right-image-1 {
+          width: 66px;
+          height: 62px;
+          margin-right: 40px;
+        }
+        .supermarket-wonderful-center-right-image-2 {
+          margin-right: 25px;
+        }
+        p {
+          width: 110px;
+          height: 28px;
+          background-color: #029a49;
+          margin-right: 20px;
+          border-radius: 16px;
+          font-family: var(--font-family), var(--font-family-number);
+          font-size: 14px;
+          color: whitesmoke;
+          text-align: center;
+          line-height: 28px;
+        }
+      }
+      .supermarket-wonderful-center-left {
+        width: 55%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        justify-content: center;
+        .supermarket-wonderful-center-left-inner {
+          width: 74px;
+          height: 74px;
+          background-color: #ffffff;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          img {
+            width: 58px;
+            height: 58px;
+            border-radius: 50%;
+          }
+          .supermarket-wonderful-center-left-inner-discount {
+            width: 34px;
+            height: 20px;
+            background-color: #d32f2f;
+            position: absolute;
+            top: 54px;
+            left: 38px;
+            font-family: var(--font-family-number);
+            font-size: 12px;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 16px;
+          }
+        }
+        .supermarket-wonderful-center-left-viewall {
+          width: 144px;
+          height: 50px;
+          background-color: #ffffff;
+          border-radius: 24px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          span {
+            color: #029a49;
+            font-family: var(--font-family), var(--font-family-number);
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 7px;
+            margin-left: 10px;
+          }
+          img {
+            width: 16px;
+            height: 16px;
+            margin-bottom: 3px;
+          }
+        }
+      }
+    }
+  }
+}

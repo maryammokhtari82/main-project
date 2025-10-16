@@ -1,0 +1,113 @@
+.best-selling-products {
+  width: 100%;
+  height: 405px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .best-selling-products-center {
+    width: 87%;
+    height: 100%;
+    border-radius: 16px;
+    border: 1px solid #e0e0e2;
+    .best-selling-products-center-top {
+      width: 100%;
+      height: 20%;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      .best-selling-products-center-top-right {
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p {
+          font-size: 21px;
+          font-family: var(--font-family);
+          color: rgb(12, 12, 12);
+          margin-right: 7px;
+        }
+      }
+      .best-selling-products-center-top-left {
+        width: fit-content;
+        position: absolute;
+        right: 90%;
+        padding: 20px 40px 0 0;
+        box-sizing: border-box;
+        a {
+          text-decoration: none;
+          p {
+            color: rgb(25, 191, 211);
+            font-family: var(--font-family);
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .best-selling-products-center-bottom {
+      width: 100%;
+      height: 80%;
+      .swiper {
+        width: 100%;
+        height: 100%;
+        padding: 0 8px 0 8px;
+        box-sizing: border-box;
+      }
+      .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .swiper-slide-item {
+          width: 100%;
+          height: 100%;
+        }
+        .swiper-slide-item-product {
+          width: 100%;
+          height: 33%;
+          a {
+            text-decoration: none;
+            width: fit-content;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            img {
+              margin: 5px 0 0 10px;
+              width: 86px;
+              height: 86px;
+            }
+            .span-number {
+              font-family: var(--font-family-number);
+              color: rgb(25, 191, 211);
+              font-size: 25px;
+              font-weight: 800;
+              margin: 0 10px 0 5px;
+              letter-spacing: -2px;
+            }
+            p {
+              font-family: var(--font-family), var(--english-font-family);
+              font-size: 12px;
+              color: #3f4064;
+              margin: 5px 15px 5px 0;
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              box-orient: vertical;
+              -webkit-line-clamp: 2;
+              line-clamp: 2;
+              overflow: hidden;
+              line-height: 27px;
+              width: fit-content;
+            }
+            .border-bottm {
+              width: 160px;
+              height: 1px;
+              background-color: #f0f0f1;
+              position: absolute;
+              top: 100px;
+              right: 125px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
